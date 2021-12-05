@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*~**** CONTAINER *****/
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  max-height: 668.85px;
+  margin: 0 auto;
+}
+
+/*~**** ROW *****/
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*~**** COLUMN *****/
+
+/* < Regole comuni a tutte le colonne */
+
+[class^="col"] {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.col {
+  flex-basis: calc(100% / 45);
+  max-width: calc(100% / 45);
+  height: 22.22px;
+  border: 1px solid black;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue-sky {
+  background-color: rgb(119, 175, 212);
+}
+
+.blue {
+  background-color: rgb(62, 98, 142);
+}
+
+.red {
+  background-color: rgb(212, 17, 27);
+}
+
+.grey {
+  background-color: rgb(174, 173, 169);
+}
+
+.dark-grey {
+  background-color: rgb(93, 90, 85);
+}
+
+.orange {
+  background-color: rgb(236, 83, 6);
+}
