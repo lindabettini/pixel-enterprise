@@ -69,3 +69,13 @@
 .orange {
   background-color: rgb(236, 83, 6);
 }
+
+.star {
+  height: 3px;
+  width: 2px;
+  background-color: darkgoldenrod;
+}
+
+.violet {
+  background-color: deeppink;
+}
